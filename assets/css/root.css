@@ -7,13 +7,14 @@
     --fs-xxlg: 25px;
     --fs-xlg: 30px;
     --fs-lg: 50px;
-    --fs-xl: 70px;
+    --fs-xl: 41px;
     /* font-color */
     --fc-black: #000a1a;
     --fc-gray: #b2c8d6;
     --fc-blue: #001d49;
     --fc-primary-blue: #031227;
     --fc-white: #fff;
+    --fc-black-shadow: #0000004D;
 }
 .clr-black{
     color: var(--fc-black);
@@ -54,4 +55,12 @@
 }
 .text-16{
     font-size: var(--fs-sm);
+}
+/* ...............................media-quries */
+@media(min-width:576px){
+    :root{
+        --fs-xl: 70px;
+        --fs-sm: 20px;
+    }
+   
 }
