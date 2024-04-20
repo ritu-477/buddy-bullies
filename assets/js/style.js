@@ -1,8 +1,6 @@
 
-const iconbox = document.querySelector('.iconbox')
-const menulist = document.querySelector('.menulist')
 
-iconbox.addEventListener('click', function () {
-    menulist.classList.toggle('show') 
+function openNav() {
+    document.getElementById("navbar").classList.toggle("start-0");
     document.body.classList.toggle("overflow-hidden")
-})
+}

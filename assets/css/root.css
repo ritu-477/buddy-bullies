@@ -17,7 +17,7 @@
     --fc-black-shadow: #0000004D;
 }
 .clr-black{
-    color: var(--fc-black);
+    background: var(--fc-black);
 }
 .clr-white{
     color: var(--fc-white);
@@ -59,8 +59,13 @@
 /* ...............................media-quries */
 @media(min-width:576px){
     :root{
-        --fs-xl: 70px;
+        --fs-xl: 55px;
         --fs-sm: 20px;
     }
    
+}
+@media(min-width:768px){
+    :root {
+            --fs-xl:70px;
+        }
 }
