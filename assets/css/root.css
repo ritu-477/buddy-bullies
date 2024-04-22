@@ -15,6 +15,7 @@
     --fc-primary-blue: #031227;
     --fc-white: #fff;
     --fc-black-shadow: #0000004D;
+    --fc-blue-1: #0065a7;
 }
 .clr-black{
     background: var(--fc-black);
@@ -62,6 +63,8 @@
         --fs-xl: 55px;
         --fs-sm: 20px;
         --fs-lg: 47px;
+        --fs-xxlg: 30px;
+        --fs-xxmd:20px
     }
    
 }
