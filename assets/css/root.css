@@ -6,7 +6,7 @@
     --fs-xxxlg: 21.74px;
     --fs-xxlg: 25px;
     --fs-xlg: 30px;
-    --fs-lg: 50px;
+    --fs-lg: 40px;
     --fs-xl: 41px;
     /* font-color */
     --fc-black: #000a1a;
@@ -61,6 +61,7 @@
     :root{
         --fs-xl: 55px;
         --fs-sm: 20px;
+        --fs-lg: 47px;
     }
    
 }
@@ -68,4 +69,9 @@
     :root {
             --fs-xl:70px;
         }
+}
+@media(min-width:992px) {
+    :root {
+        --fs-lg: 50px;
+    }
 }
