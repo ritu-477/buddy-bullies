@@ -317,6 +317,11 @@
 .pb-212 {
     padding-bottom: 48px;
 }
+.absolute3{
+    position: absolute;
+    top: -38%;
+    left: 0;
+}
 
 
 @media(max-width:991.99px) {
