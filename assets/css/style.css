@@ -355,12 +355,12 @@
     display: flex;
     align-items: center;
     width: 100%;
-    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    padding: 20px 32px !important;
     font-size: var(--fs-xmd) !important;
     color: var(--fc-white) !important;
     text-align: left;
     background-color: var(--fc-primary-blue) !important;
-    border: 0;
+    border: 0 !important;
     border-radius: 150px !important;
     overflow-anchor: none;
     transition: var(--bs-accordion-transition);
@@ -379,6 +379,9 @@
     outline: none !important;
     box-shadow: none !important;
     border: none !important;
+}
+.accordion-body {
+    padding: 21px 32px 0 32px !important;
 }
 
 .accordion-button::after {
