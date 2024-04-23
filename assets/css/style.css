@@ -387,6 +387,23 @@
 .accordion-button::after {
     background-image: url("../images/vector1.png") !important;
 }
+/*...............................................our-team-section.................... */
+.py-48{
+     padding-top: 48px;
+     padding-bottom: 48px;
+}
+.max-w1013{
+    max-width: 1013px;
+}
+.max-w311{
+    max-width: 311px;
+    min-height: 311px;
+}
+.pt-32{
+    padding-top: 32px;
+}
+   
+
 
 @media(max-width:991.99px) {
     .iconbox {
@@ -538,6 +555,10 @@
         padding-top: 100px;
         padding-bottom: 100px;
     }
+    .py-md-100{
+        padding-top: 100px;
+        padding-bottom: 42px;
+    }
 
 
 }
@@ -571,6 +592,9 @@
         padding-top: 141px;
         padding-bottom: 110px;
     }
-
+        .py-lg-120{
+            padding-top: 121px;
+            padding-bottom: 42px;
+        }
 
 }
