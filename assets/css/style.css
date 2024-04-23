@@ -399,6 +399,10 @@
     max-width: 311px;
     min-height: 311px;
 }
+.max-w312 {
+    max-width: 294px;
+    min-height: 312px;
+}
 .pt-32{
     padding-top: 32px;
 }
