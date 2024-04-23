@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -10,6 +11,10 @@
 
 .font-poppin {
     font-family: 'Poppins', sans-serif;
+}
+
+.font-motserrat {
+    font-family: 'montserrat', sans-serif;
 }
 
 /* ....................font-weight */
@@ -184,7 +189,7 @@
 
 .absolute1 {
     position: absolute;
-    top: -40%;
+    top: -98%;
     left: -4%;
     z-index: -1;
 }
@@ -317,25 +322,68 @@
 .pb-212 {
     padding-bottom: 48px;
 }
-.absolute3{
+
+.absolute3 {
     position: absolute;
     top: -38%;
     left: 0;
 }
+
 /* .........................................section-4 */
-.py-48{
+.py-48 {
     padding-top: 48px;
     padding-bottom: 48px;
 }
-.absolute4{
+
+.absolute4 {
     position: absolute;
-        top: -58%;
-        right: 0;
+    top: -58%;
+    right: 0;
 }
-.max-w786{
+
+.max-w786 {
     max-width: 786px;
 }
 
+/* ..........................accordion.................. */
+.max-w830 {
+    max-width: 830px;
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: var(--fs-xmd) !important;
+    color: var(--fc-white) !important;
+    text-align: left;
+    background-color: var(--fc-primary-blue) !important;
+    border: 0;
+    border-radius: 150px !important;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+}
+.accordion-item{
+    color: var(--fc-black)!important;
+        background-color: var(--bs-accordion-bg);
+        border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+    }
+
+.accordion {
+    --bs-accordion-bg: var(--fc-black) !important;
+    --bs-accordion-border-color: none !important;
+}
+.accordion-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.accordion-button::after {
+    background-image: url("../images/vector1.png") !important;
+}
 
 @media(max-width:991.99px) {
     .iconbox {
@@ -482,11 +530,12 @@
     .pb-146 {
         padding-bottom: 100px;
     }
-        .py-md100{
+
+    .py-md100 {
         padding-top: 100px;
-            padding-bottom: 100px;
-        }
-    
+        padding-bottom: 100px;
+    }
+
 
 }
 
@@ -514,10 +563,11 @@
     .pb-146 {
         padding-bottom: 146px;
     }
-        .py-lg140{
-            padding-top: 141px;
-            padding-bottom: 110px;
-        }
-    
+
+    .py-lg140 {
+        padding-top: 141px;
+        padding-bottom: 110px;
+    }
+
 
 }
