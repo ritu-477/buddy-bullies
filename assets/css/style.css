@@ -322,7 +322,16 @@
     top: -38%;
     left: 0;
 }
-
+/* .........................................section-4 */
+.py-48{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.absolute4{
+    position: absolute;
+        top: -38%;
+        right: 0;
+}
 
 @media(max-width:991.99px) {
     .iconbox {
@@ -469,6 +478,11 @@
     .pb-146 {
         padding-bottom: 100px;
     }
+        .py-md100{
+        padding-top: 100px;
+            padding-bottom: 100px;
+        }
+    
 
 }
 
@@ -496,5 +510,10 @@
     .pb-146 {
         padding-bottom: 146px;
     }
+        .py-lg140{
+            padding-top: 141px;
+            padding-bottom: 110px;
+        }
+    
 
 }
