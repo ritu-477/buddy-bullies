@@ -329,9 +329,13 @@
 }
 .absolute4{
     position: absolute;
-        top: -38%;
+        top: -58%;
         right: 0;
 }
+.max-w786{
+    max-width: 786px;
+}
+
 
 @media(max-width:991.99px) {
     .iconbox {
