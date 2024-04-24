@@ -144,16 +144,18 @@
 .bt-line:hover::after {
     width: 100%;
 }
-.bt-line2::after{
+
+.bt-line2::after {
     content: "";
-        width: 0%;
-        height: 1px;
-        position: absolute;
-        background: var(--fc-white);
-        bottom: 5px;
-        left: 0;
-        transition: 1s;
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    background: var(--fc-white);
+    bottom: 5px;
+    left: 0;
+    transition: 1s;
 }
+
 .bt-line2:hover::after {
     width: 100%;
 }
@@ -190,19 +192,9 @@
     color: var(--fc-white);
 }
 
-.sec-box1 {
-    bottom: 0;
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 230px;
-    background: linear-gradient(180deg, rgba(0, 10, 26, 0) 0%, var(--fc-black) 100%);
-    z-index: 0
-}
-
 .absolute1 {
     position: absolute;
-    top: -98%;
+    top: -55%;
     left: -4%;
     z-index: -1;
 }
@@ -461,6 +453,7 @@
 .pt-48 {
     padding-top: 48px;
 }
+
 .topBtn {
     border-radius: 50px;
     display: none;
@@ -482,11 +475,10 @@
 .topBtn:active {
     transform: translateY(5px);
 }
-.pt-21{
+
+.pt-21 {
     padding-top: 21px;
 }
-
-
 
 @media(max-width:991.99px) {
     .iconbox {
@@ -553,8 +545,9 @@
         left: 0%;
     }
 }
-@media(max-width:767.99px){
-.bg-clr1 {
+
+@media(max-width:767.99px) {
+    .bg-clr1 {
         background: var(--fc-primary-blue);
     }
 }
@@ -650,12 +643,13 @@
         padding-top: 100px;
         padding-bottom: 42px;
     }
-        .bg-image2 {
-            background-image: url("../images/footerbgimg.png");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-        }
+
+    .bg-image2 {
+        background-image: url("../images/footerbgimg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 
 }
 
@@ -700,6 +694,16 @@
 
     .pt-lg-160 {
         padding-top: 160px;
+    }
+
+    .sec-box1 {
+        bottom: 0;
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 230px;
+        background: linear-gradient(180deg, rgba(0, 10, 26, 0) 0%, var(--fc-black) 100%);
+        z-index: 0
     }
 
 }
