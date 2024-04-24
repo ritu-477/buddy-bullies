@@ -454,13 +454,6 @@
 }
 
 /* ..............................................footer-section....................... */
-.bg-image2 {
-    background-image: url("../images/footerbgimg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 .max-w388 {
     max-width: 388px;
 }
@@ -489,6 +482,10 @@
 .topBtn:active {
     transform: translateY(5px);
 }
+.pt-21{
+    padding-top: 21px;
+}
+
 
 
 @media(max-width:991.99px) {
@@ -556,6 +553,11 @@
         left: 0%;
     }
 }
+@media(max-width:767.99px){
+.bg-clr1 {
+        background: var(--fc-primary-blue);
+    }
+}
 
 @media(min-width:576px) {
     .get-btn {
@@ -603,8 +605,8 @@
         bottom: 22%;
     }
 
-    .pt-sm-100 {
-        padding-top: 100px;
+    .pt-sm-60 {
+        padding-top: 60px;
     }
 
 }
@@ -648,7 +650,12 @@
         padding-top: 100px;
         padding-bottom: 42px;
     }
-
+        .bg-image2 {
+            background-image: url("../images/footerbgimg.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
 
 }
 
