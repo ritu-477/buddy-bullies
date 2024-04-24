@@ -1,5 +1,6 @@
 :root {
     /* font-size */
+    --fs-xxsm: 14px;
     --fs-xsm: 15px;
     --fs-sm: 16px;
     --fs-xxmd: 18px;
@@ -18,67 +19,87 @@
     --fc-black-shadow: #0000004D;
     --fc-blue-1: #009dff;
 }
-.clr-black{
+
+.clr-black {
     background: var(--fc-black);
 }
-.clr-white{
+
+.clr-white {
     color: var(--fc-white);
 }
-.clr-blue{
+
+.clr-blue {
     color: var(--fc-blue);
 }
-.clr-gray{
+
+.clr-gray {
     color: var(--fc-gray);
 }
-.clr-primary-blue{
+
+.clr-primary-blue {
     color: var(--fc-primary-blue);
 }
+
 /* .....................font-size............ */
-.text-70{
+.text-70 {
     font-size: var(--fs-xl);
 }
+
 .text-50 {
     font-size: var(--fs-lg);
 }
+
 .text-30 {
     font-size: var(--fs-xlg);
 }
-.text-25{
+
+.text-25 {
     font-size: var(--fs-xxlg);
 }
+
 .text-21 {
     font-size: var(--fs-xxxlg);
 }
+
 .text-20 {
     font-size: var(--fs-xmd);
 }
+
 .text-18 {
     font-size: var(--fs-xxmd);
 }
-.text-16{
+
+.text-16 {
     font-size: var(--fs-sm);
 }
-.text-14{
+
+.text-15 {
     font-size: var(--fs-xsm);
 }
+
+.text-14 {
+    font-size: var(--fs-xxsm);
+}
+
 /* ...............................media-quries */
-@media(min-width:576px){
-    :root{
-       
+@media(min-width:576px) {
+    :root {
         --fs-xsm: 18px;
+        --fs-xmd: 30px;
         --fs-lg: 47px;
         --fs-xl: 55px;
         --fs-xxlg: 30px;
-        --fs-xxmd:20px
+        --fs-xxmd: 20px
     }
-   
 }
-@media(min-width:768px){
+
+@media(min-width:768px) {
     :root {
         --fs-xsm: 20px;
-            --fs-xl:70px;
-        }
+        --fs-xl: 70px;
+    }
 }
+
 @media(min-width:992px) {
     :root {
         --fs-lg: 50px;
