@@ -144,6 +144,19 @@
 .bt-line:hover::after {
     width: 100%;
 }
+.bt-line2::after{
+    content: "";
+        width: 0%;
+        height: 1px;
+        position: absolute;
+        background: var(--fc-white);
+        bottom: 5px;
+        left: 0;
+        transition: 1s;
+}
+.bt-line2:hover::after {
+    width: 100%;
+}
 
 .minting {
     transition: 1s;
@@ -466,7 +479,7 @@
     background-color: var(--fc-blue);
     cursor: pointer;
     padding: 10px;
-    box-shadow: 0px 0px 20px 0px var(--fc-blue-1);
+    box-shadow: 0px 0px 30px 0px var(--fc-blue-1);
 }
 
 .topBtn.show {
