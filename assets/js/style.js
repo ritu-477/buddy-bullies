@@ -2,7 +2,7 @@
 
 function openNav() {
     document.getElementById("navbar").classList.toggle("start-0");
-    document.body.classList.toggle("overflow-hidden")
+    document.body.classList.toggle("overflowhidden")
 }
 
 // scroll-to -top-button////

@@ -506,8 +506,8 @@
         background-color: var(--fc-blue);
     }
 
-    .overflow-hidden {
-        overflow: hidden;
+    .overflowhidden {
+        overflow: hidden !important;
     }
 
     /* Place the timelime to the left */
